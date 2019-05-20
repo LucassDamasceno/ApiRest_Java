@@ -11,7 +11,7 @@ public class Usuario {
 	
 	Usuario(String nomeCompleto, String nomeDeUsuario, String email, String senha){
 		this.nomeCompleto = nomeCompleto;
-		this.nomeDeUsuario = nomeDeUsuario;
+		this.nomeDeUsuaio = nomeDeUsuario;
 		this.email = email;
 		this.senha = senha;
 	}
@@ -23,10 +23,10 @@ public class Usuario {
 		this.nomeCompleto = nomeCompleto;
 	}
 	public String getNomeDeUsuario() {
-		return nomeDeUsuario;
+		return nomeDeUsuaio;
 	}
 	public void setNomeDeUsuario(String nomeDeUsuario) {
-		this.nomeDeUsuario = nomeDeUsuario;
+		this.nomeDeUsuaio = nomeDeUsuario;
 	}
 	public String getEmail() {
 		return email;
