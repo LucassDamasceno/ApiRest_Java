@@ -21,10 +21,10 @@ public class Login {
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.TEXT_PLAIN)
 	public Response login(Usuario usuario) {
-		if(usuario.getLogin().equals("admin") && usuario.getSenha().equals("12345")) {
+		if(usuario.getUserName().equals("admin") && usuario.getSenha().equals("12345")) {
 			
 			String compactJws = Jwts.builder()
-					.setSubject(usuario.getLogin())
+					.setSubject(usuario.getUserName())
 					.setIssuedAt(new Date())
 					.signWith(SignatureAlgorithm.HS512, "ChaveJwt")
 					.compact();
@@ -34,5 +34,4 @@ public class Login {
 					.entity("Email ou senha inválidos").build();
 		}
 	}
-
 }

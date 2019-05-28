@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="servicoCardapio">
+    <wb-module deploy-name="ApiRest_Java">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="servicoCardapio"/>
-        <property name="java-output-path" value="/servicoCardapio/build/classes"/>
+        <property name="context-root" value="ApiRest_Java"/>
+        <property name="java-output-path" value="/ApiRest_Java/build/classes"/>
     </wb-module>
 </project-modules>
